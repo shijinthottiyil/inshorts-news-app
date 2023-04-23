@@ -1,0 +1,24 @@
+name: let_me_grab
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  dio: ^5.1.1
+  firebase_auth: ^4.4.2
+  firebase_core: ^2.10.0
+  flutter:
+    sdk: flutter
+  google_fonts: ^4.0.3
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
